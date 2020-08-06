@@ -13,6 +13,6 @@ T Max(T x, T y)
 int main()
 {
 	cout<<Max<int>(1,3)<<endl;
-	cout<<Max<char>('a','c')<<endl;
+	cout<<Max<char>('a','c')<<endl;//compares the ascii value
 	return 0;
 }
